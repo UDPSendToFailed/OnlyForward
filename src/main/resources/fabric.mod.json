@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "onlyforward",
+	"version": "1.0.0",
+	"name": "Only Forward",
+	"description": "Retreat is not an option.",
+	"authors": [
+		"UDPsendToFailed"
+	],
+	"contact": {
+		"sources": "https://github.com/UDPsendToFailed/OnlyForward"
+	},
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.udpsendtofailed.onlyforward.OnlyForward"
+		]
+	},
+	"mixins": [
+		"onlyforward.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.21.11",
+		"java": ">=21"
+	}
+}
